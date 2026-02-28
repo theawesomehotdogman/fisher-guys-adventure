@@ -67,7 +67,7 @@ def mainemenu():
         if endgame:
             break
         if credits:
-            show_text("The Game By Arthur Marx",125,400,(255,255,255),20)
+            show_text("The Game By Somebody",125,400,(255,255,255),20)
             show_text("Press Delete Key To Erase Save",100,380,(255,255,255),20)
         pygame.display.update()
 def save():
@@ -276,4 +276,5 @@ def game():
 while 1:
     mainemenu()
     game()
+
            
